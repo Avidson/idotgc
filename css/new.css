@@ -1,0 +1,26 @@
+.blue-fill {
+    background-color: #27AAE1;;
+}
+.pink-fill {
+    color:#EB70AB
+}
+.pink-fill-background {
+    background-color: #EB70AB;
+}
+
+.navbar-nav > a:active{
+    color:#EB70AB
+}
+
+.navbar-nav > a:hover {
+    color: #EB70AB;
+}
+
+.page-header,
+.subscribe,
+.footer {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/img5.jpeg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
