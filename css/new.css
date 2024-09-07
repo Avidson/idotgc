@@ -24,3 +24,26 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.white-fill {
+    color: white;
+}
+
+@media screen and (min-width:768px) and (max-width: 1200px) {
+.intro-div {
+    height: 1200px;
+}
+}
+
+@media screen and (min-width:1200px) and (max-width: 1400px) {
+    .intro-div {
+        height: 750px;
+    }
+    }
+
+@media screen and (min-width:300px) and (max-width: 767px) {
+        .mobile-image {
+            width: 250px;
+            height: 250px;
+        }
+        }
