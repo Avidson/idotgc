@@ -57,4 +57,13 @@
             width: 250px;
             height: 250px;
         }
+        #row-mobile {
+            display: grid;
+            grid-template-columns: 2fr 2fr 2fr;
+            grid-gap: 10px;
+        }
+        #row-mobile > col > div > img {
+            width: 100px;
+            height: 50px;
+        }
         }
